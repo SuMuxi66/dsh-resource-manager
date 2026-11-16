@@ -9,7 +9,7 @@ switches **MCP servers**, **agent tools**, and **skills** on or off, plus a
 
 ## 安装 / Install
 
-发布到 npm 之后，用插件管理器安装 spec `dsh-resource-manager`（等价命令行）：
+从 npm 安装（该包发布到 npm 之后可用），用插件管理器安装 spec `dsh-resource-manager`（等价命令行）：
 
 ```bash
 dsh plugin --profile web add dsh-resource-manager
