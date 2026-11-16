@@ -1,0 +1,60 @@
+{
+  "name": "dsh-resource-manager",
+  "version": "1.0.0",
+  "description": "Resource manager for DeepSeek Harness: one Settings page that switches MCP servers, agent tools, and skills on or off, with a matching agent tool so the same operations are reachable from chat.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-0"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "mcp",
+    "skills",
+    "tools",
+    "settings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuMuxi66/dsh-resource-manager.git"
+  },
+  "homepage": "https://github.com/SuMuxi66/dsh-resource-manager#readme",
+  "bugs": {
+    "url": "https://github.com/SuMuxi66/dsh-resource-manager/issues"
+  },
+  "author": "SuMuxi66",
+  "license": "MIT"
+}

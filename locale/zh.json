@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "资源管理",
+    "description": "一个设置页面，用于开启或关闭 MCP 服务器、工具与技能，并提供同名的智能体工具完成同样的操作。",
+    "detail": "docs/DETAIL.md"
+  }
+}

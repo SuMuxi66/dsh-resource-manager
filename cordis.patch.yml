@@ -1,0 +1,9 @@
+# Resource manager bundle layer.
+# The row's `config` is the durable state of the two switch lists; the plugin
+# rewrites it through the config editor whenever a user flips a switch.
+- insert:
+    - id: resource-manager
+      name: dsh-resource-manager
+      config:
+        disabledTools: []
+        disabledSkills: []

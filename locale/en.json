@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Resource manager",
+    "description": "One Settings page that switches MCP servers, agent tools, and skills on or off, with a matching agent tool for the same operations.",
+    "detail": "docs/DETAIL.md"
+  }
+}
